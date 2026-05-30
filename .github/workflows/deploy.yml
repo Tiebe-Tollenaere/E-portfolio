@@ -28,11 +28,11 @@ jobs:
       - run: npm ci
 
       - run: |
-          npm run build -- --configuration production --base-href "/my-angular-app/"
+          npm run build -- --configuration production --base-href "/E-portfolio/"
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/my-angular-app/browser
+          path: dist/E-portfolio/browser
 
   deploy:
     environment:
