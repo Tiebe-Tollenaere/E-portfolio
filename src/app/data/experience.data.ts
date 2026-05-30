@@ -13,17 +13,17 @@ export const workExperienceData: TimelineItem[] = [
   {
     title: 'Software Intern @ Ingenix',
     duration: 'FEBRUARI 2026 - MEI 2026',
-    description: 'Werken aan full-stack development projecten met behulp van moderne webtechnologieën zoals Angular21, PrimeNG en .NET. Praktijkervaring opdoen in de softwareontwikkelingscyclus en bijdragen aan real-world applicaties die intern door het bedrijf worden gebruikt.'
+    description: 'Meegewerkt aan full-stack projecten met moderne webtechnologieën zoals Angular 21, PrimeNG en .NET. Praktische ervaring opgedaan in het volledige softwareontwikkelingsproces en bijgedragen aan interne applicaties die binnen het bedrijf gebruikt worden.'
   },
   {
     title: 'Student Worker @ Carrefour',
-    duration: 'Zomers - 2022/2023/2024/2025',
-    description: 'Ervaring met retailoperaties en klantenservice tijdens zomervakanties.'
+    duration: 'Zomer - 2022/2023/2024/2025',
+    description: 'Klantenservice en ondersteuning bij de dagelijkse werking van de winkel.'
   },
   {
     title: 'IT Helpdesk Intern @ Politiezone Tielt',
     duration: 'Januari 2023',
-    description: 'Technische ondersteuning en probleemoplossing aangeboden voor eindgebruikers.'
+    description: 'Technische ondersteuning geboden en meegeholpen bij het oplossen van problemen voor eindgebruikers.'
   }
 ];
 
@@ -31,12 +31,12 @@ export const educationData: TimelineItem[] = [
   {
     title: 'Computer Science Bachelor @ Howest',
     duration: '2023 - 2026',
-    description: 'Uitgebreid informaticaprogramma gericht op web- en softwareontwikkeling. Met een introductie tot cloud computing en DevOps-praktijken in het curriculum evenals AI en cybersecurity.'
+    description: 'Brede opleiding in informatica met focus op web- en softwareontwikkeling, aangevuld met kennis van cloud computing, DevOps, AI en cybersecurity.'
   },
   {
     title: 'Secondary Education @ RP Tielt',
     duration: '2017 - 2023',
-    description: 'Middelbaaronderwijs met focus op ondernemen en informatica.'
+    description: 'Secundair onderwijs met focus op ondernemen en informatica.'
   }
 ];
 

@@ -97,7 +97,7 @@ Aan het begin van de avond wist ik nog niet zo veel over de technische kant van 
     slug: 'deepseek-uncovered',
     excerpt: 'Een diepgaande analyse van DeepSeek, de Chinese AI model die de tech wereld op zijn kop zette.',
     images: ['tech&meet_Deepseek_1.jpg', 'tech&meet_Deepseek_2.jpg'],
-    content: `Op 9 december woonde ik mijn derde Tech&Meet sessie bij, namelijk DeepSeek Uncovered. Deze sessie sprak mij aan, net als Open Minds en Open Models, omdat het AI ecosysteem voortdurend evolueert. Als je je niet blijft bijscholen en je AI kennis up-to-date houdt, ben je snel niet meer mee met wat er allemaal gebeurt. Aangezien ik zelf nog nooit gebruik had gemaakt van DeepSeek, de Chinese tegenhanger van ChatGPT, was mijn interesse meteen gewekt.
+    content: `Op 9 december woonde ik mijn vierde Tech&Meet sessie bij, namelijk DeepSeek Uncovered. Deze sessie sprak mij aan, net als Open Minds en Open Models, omdat het AI ecosysteem voortdurend evolueert. Als je je niet blijft bijscholen en je AI kennis up-to-date houdt, ben je snel niet meer mee met wat er allemaal gebeurt. Aangezien ik zelf nog nooit gebruik had gemaakt van DeepSeek, de Chinese tegenhanger van ChatGPT, was mijn interesse meteen gewekt.
 
 De spreker van de avond was Dimitri Casier, lector aan Howest. Het is altijd leerrijk en leuk om naar hem te luisteren. Ik heb de afgelopen jaren al verschillende vakken van hem gevolgd, van Web Development tot Applied AI, dus ik wist dat de uitleg zowel technisch sterk als vlot zou zijn.
 
