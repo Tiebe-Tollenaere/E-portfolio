@@ -28,11 +28,11 @@ jobs:
       - run: npm ci
 
       - run: |
-          npm run build -- --configuration production --base-href "/E-portfolio/"
+          npm run build -- --configuration production --base-href "/EPortfolio-TiebeTollenaere/"
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/E-portfolio/browser
+          path: dist/EPortfolio-TiebeTollenaere/browser
 
   deploy:
     environment:
