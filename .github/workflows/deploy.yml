@@ -31,11 +31,11 @@ jobs:
           npm run build -- --configuration production --base-href "/E-portfolio/"
 
       - name: show dist folder
-        run: ls -la dist
+        run: ls -la dist/EPortfolio-TiebeTollenaere/browser
               
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/EPortfolio-TiebeTollenaere
+          path: dist/EPortfolio-TiebeTollenaere/browser
 
       - name: Verify build output
         run: |
