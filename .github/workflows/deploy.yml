@@ -37,6 +37,10 @@ jobs:
         with:
           path: dist/EPortfolio-TiebeTollenaere
 
+      - name: Verify build output
+        run: |
+            find dist -type f | sort
+
   deploy:
     environment:
       name: github-pages
