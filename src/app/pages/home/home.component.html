@@ -1,0 +1,39 @@
+<app-header></app-header>
+
+<main class="home-container">
+  <section class="introduction">
+    <div class="introduction-content">
+      <h1>Welkom, ik ben Tiebe Tollenaere</h1>
+      <p>Ik ben een gepassioneerde software developer met een sterke achtergrond in webontwikkeling en een groot interesse in opkomende technologieën. Met ervaring in verschillende programmeertalen en frameworks geniet ik ervan om innovatieve oplossingen voor complexe problemen te creëren. Mijn portfolio toont een scala aan projecten die mijn vaardigheden en toewijding aan het leveren van kwalitatieve software demonstreren.</p>
+      <div class="introduction-buttons">
+        <button class="btn btn-primary" (click)="openExternalLink(socialLinks.github)">GitHub</button>
+        <button class="btn btn-secondary" (click)="openExternalLink(socialLinks.linkedin)">LinkedIn</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-me">
+    <h2>Over Mij</h2>
+    <div class="about-me-content">
+      <img src="assets/aboutme.png" alt="About me" class="about-me-image" />
+      <div class="about-me-text">
+        <p>Ik ben iemand die gefascineerd is door informatica en technologie. Momenteel ben ik aan het studeren voor mijn Bachelor in Toegepaste Informatica met specialisatie in Software Engineering aan Howest in Brugge. Mijn passie voor programmeren en softwareontwikkeling heeft mij in staat gesteld om ervaring op te doen met diverse programmeertalen en frameworks, waaronder Java, TypeScript, Angular, Vue.js en nog veel meer.</p>
+        <p>Wat mij echt drijft, is het vermogen om uit mijn comfort zone te stappen en nieuwe technologieën en concepten te leren. Ik ben perfectionistisch van nature en ben altijd op zoek naar manieren om mijn code en werkstroom te optimaliseren. Buiten het werken sport ik graag en kijk ik naar documentaires. Met mijn sterke werkethiek, mijn focus op kwaliteit en mijn enthousiasme voor leren, ben ik ervan overtuigd dat ik waardevolle bijdragen kan leveren aan elk team en project waar ik aan betrokken ben.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="technical-skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card" *ngFor="let skill of skills">
+        <h3>{{ skill.category }}</h3>
+        <ul>
+          <li *ngFor="let item of skill.items">{{ item }}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<app-footer></app-footer>

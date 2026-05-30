@@ -1,0 +1,58 @@
+<app-header></app-header>
+
+<main class="skills-container">
+  <section class="work-experience timeline-section">
+    <h2>Work Experience</h2>
+    <div class="timeline-wrapper">
+      <p-timeline [value]="workExperience" align="left">
+        <ng-template pTemplate="marker">
+          <span class="custom-marker"></span>
+        </ng-template>
+        
+        <ng-template pTemplate="content" let-item>
+          <div class="timeline-content">
+            <h3>{{ item.title }}</h3>
+            <p class="timeline-duration">{{ item.duration }}</p>
+            <p class="timeline-description">{{ item.description }}</p>
+          </div>
+        </ng-template>
+      </p-timeline>
+    </div>
+  </section>
+
+  <section class="education timeline-section">
+    <h2>Education</h2>
+    <div class="timeline-wrapper">
+      <p-timeline [value]="education" align="left">
+        <ng-template pTemplate="marker">
+          <span class="custom-marker"></span>
+        </ng-template>
+
+        <ng-template pTemplate="content" let-item>
+          <div class="timeline-content">
+            <h3>{{ item.title }}</h3>
+            <p class="timeline-duration">{{ item.duration }}</p>
+            <p class="timeline-description">{{ item.description }}</p>
+          </div>
+        </ng-template>
+      </p-timeline>
+    </div>
+  </section>
+
+  <section class="technical-skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-list">
+      <div class="skill-item" *ngFor="let skill of technicalSkills">
+        <div class="skill-header">
+          <span class="skill-name">{{ skill.name }}</span>
+          <span class="skill-percentage">{{ skill.proficiency }}%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" [style.width.%]="skill.proficiency"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<app-footer></app-footer>

@@ -1,0 +1,25 @@
+<app-header></app-header>
+
+<main class="projects-container">
+  <h1>Projects</h1>
+  
+  <div class="projects-grid">
+    <div class="project-card" *ngFor="let project of projects">
+      <div class="project-image-container">
+        <img *ngIf="project.image" [src]="'assets/projects/' + project.image" [alt]="project.title" class="project-image" />
+        <div *ngIf="!project.image" class="project-image-placeholder">
+          <span>{{ project.title }}</span>
+        </div>
+      </div>
+      <div class="project-content">
+        <h2>{{ project.title }}</h2>
+        <p class="project-description">{{ project.description }}</p>
+        <div class="project-technologies" *ngIf="project.technologies && project.technologies.length > 0">
+          <span class="tech-tag" *ngFor="let tech of project.technologies">{{ tech }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<app-footer></app-footer>

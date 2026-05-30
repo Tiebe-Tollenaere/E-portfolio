@@ -1,0 +1,31 @@
+<app-header></app-header>
+
+<main class="blog-detail-container" *ngIf="blogPost">
+  <article class="blog-post">
+    <div class="blog-header">
+      <h1>{{ blogPost.title }}</h1>
+      <div class="blog-meta">
+        <span class="blog-date">{{ blogPost.date }}</span>
+        <span class="blog-location">{{ blogPost.location }}</span>
+      </div>
+    </div>
+
+    <div class="blog-images" *ngIf="blogPost.images.length > 0">
+      <div *ngIf="blogPost.images.length === 1" class="single-image">
+        <img [src]="'assets/blogs/' + blogPost.images[0]" [alt]="blogPost.title" />
+      </div>
+      <div *ngIf="blogPost.images.length === 2" class="double-images">
+        <img [src]="'assets/blogs/' + blogPost.images[0]" [alt]="blogPost.title" />
+        <img [src]="'assets/blogs/' + blogPost.images[1]" [alt]="blogPost.title" />
+      </div>
+    </div>
+
+    <div class="blog-content" [innerHTML]="formattedContent"></div>
+
+    <div class="blog-footer">
+      <a routerLink="/blogs" class="back-link">← Back to all blogs</a>
+    </div>
+  </article>
+</main>
+
+<app-footer></app-footer>

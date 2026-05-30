@@ -1,0 +1,24 @@
+<app-header></app-header>
+
+<main class="blogs-container">
+  <h1>Blogs & Events</h1>
+  
+  <div class="blog-entries">
+    <article class="blog-entry" *ngFor="let blog of blogEntries">
+      <div class="blog-image-container">
+        <img *ngIf="blog.images.length > 0" [src]="'assets/blogs/' + blog.images[0]" [alt]="blog.title" class="blog-image" />
+        <div *ngIf="blog.images.length === 0" class="blog-image-placeholder">
+          <span>{{ blog.title }}</span>
+        </div>
+      </div>
+      <div class="blog-content">
+        <h2>{{ blog.title }}</h2>
+        <p class="blog-meta">{{ blog.date }} | {{ blog.location }}</p>
+        <p class="blog-excerpt">{{ blog.excerpt }}</p>
+        <a [routerLink]="'/blogs/' + blog.slug" class="read-more">Read More →</a>
+      </div>
+    </article>
+  </div>
+</main>
+
+<app-footer></app-footer>
