@@ -11,6 +11,26 @@ export interface BlogPost {
 }
 
 export const blogPostsData: BlogPost[] = [
+    {
+    id: 'open-minds-open-models',
+    title: 'Open Minds, Open Models – mijn ervaring bij deze fantastische Tech&Meet sessie!',
+    date: '28 oktober 2025',
+    location: 'Tech&Meet',
+    slug: 'open-minds-open-models',
+    excerpt: 'Een diepgaande kijk op open source AI modellen en het Hugging Face ecosysteem met ML engineer Niels Rogge.',
+    images: ['tech&meet_OpenMindsOpenModels.jpg'],
+    content: `Op 28 oktober 2025 woonde ik de Tech&Meet sessie over Open Minds, Open Models bij. Deze avond werd gehost door Howest en de spreker was Niels Rogge, een ML engineer bij ML6 en Hugging Face.
+
+Iedereen komt tegenwoordig in aanraking met AI, zowel in het privéleven als op het werk. Ik ben naar deze sessie gegaan om wat meer te weten te komen over open source AI modellen en het volledige tech ecosysteem daarrond. Om hier iets over bij te leren was dus fantastisch.
+
+Tijdens de sessie kwamen verschillende topics aan bod, zoals het verschil tussen open source, closed source en open weight modellen. Open source AI modellen zijn modellen die gratis gebruikt kunnen worden en die hun trainingsdata bekendmaken voor anderen. Open weight modellen daarentegen zijn ook gratis te gebruiken, maar geven hun trainingsdata niet openbaar vrij.
+
+Ook de geschiedenis van open LLM's werd besproken. We leerden welke tools je kan gebruiken om aan inference te doen, zoals vLLM, SGLang, Llama cpp en nog enkele andere. Daarnaast werd het volledige ecosysteem rond Hugging Face, de GitHub van AI en machine learning, besproken. Je kan er onder andere datasets, modellen, spaces en een groeiende community vinden.
+
+Tijdens de sessie werden ook de recentste onderwerpen en trends binnen artificiële intelligentie aangehaald. Denk maar aan LLM's die efficiënter worden zodat ze ook op minder krachtige hardware zoals een smartphone lokaal kunnen draaien. Ook het feit dat LLM's steeds vaker gebruikmaken van voice en image capture kwam aan bod. Daarnaast is beeld en videogeneratie iets dat recent sterk is opgekomen. AI en machine learning zijn natuurlijk niet enkel voor tekst en afbeeldingen, maar worden ondertussen ook volop ingezet binnen de robotica.
+
+Ik heb die avond veel bijgeleerd over Hugging Face en het open source ecosysteem. Ik had voordien wel al vaag van Hugging Face gehoord, dus het was heel fijn om hier dieper op in te gaan. Het was een uiterst interessante Tech&Meet en ik kijk al uit naar de volgende sessies!`
+  },
   {
     id: 'hackathon',
     title: 'Lost in the deep: codeerexpeditie naar Atlantis',
@@ -30,26 +50,6 @@ Na het voltooien van de tweede challenge was het middag. Tijdens de pauze kregen
 Na de challenges konden we onze presentaties voorbereiden en geven. Het was heel boeiend om eens te luisteren naar de andere groepen om te horen hoe zij hun opdrachten hadden aangepakt en welke techstack ze gebruikten. Het was ook heel interessant om van de twee winnende groepen te horen hoe zij de derde challenge tot een goed einde hebben gebracht. Na de presentaties volgden het avondeten en de awarduitreiking.
 
 Hack The Future was voor mij heel leuk om te doen. Het was een volledig nieuwe ervaring. De codeerexpeditie was een fijne challenge, al zaten er nog andere opdrachten tussen die mij achteraf gezien ook heel uitdagend leken. Hack The Future was zeker de moeite waard en ik zal in de toekomst zeker nog aan andere hackathons meedoen. Al bij al was het een zeer geslaagd evenement!`
-  },
-  {
-    id: 'open-minds-open-models',
-    title: 'Open Minds, Open Models – mijn ervaring bij deze fantastische Tech&Meet sessie!',
-    date: '28 oktober 2025',
-    location: 'Tech&Meet',
-    slug: 'open-minds-open-models',
-    excerpt: 'Een diepgaande kijk op open source AI modellen en het Hugging Face ecosysteem met ML engineer Niels Rogge.',
-    images: ['tech&meet_OpenMindsOpenModels.jpg'],
-    content: `Op 28 oktober 2025 woonde ik de Tech&Meet sessie over Open Minds, Open Models bij. Deze avond werd gehost door Howest en de spreker was Niels Rogge, een ML engineer bij ML6 en Hugging Face.
-
-Iedereen komt tegenwoordig in aanraking met AI, zowel in het privéleven als op het werk. Ik ben naar deze sessie gegaan om wat meer te weten te komen over open source AI modellen en het volledige tech ecosysteem daarrond. Om hier iets over bij te leren was dus fantastisch.
-
-Tijdens de sessie kwamen verschillende topics aan bod, zoals het verschil tussen open source, closed source en open weight modellen. Open source AI modellen zijn modellen die gratis gebruikt kunnen worden en die hun trainingsdata bekendmaken voor anderen. Open weight modellen daarentegen zijn ook gratis te gebruiken, maar geven hun trainingsdata niet openbaar vrij.
-
-Ook de geschiedenis van open LLM's werd besproken. We leerden welke tools je kan gebruiken om aan inference te doen, zoals vLLM, SGLang, Llama cpp en nog enkele andere. Daarnaast werd het volledige ecosysteem rond Hugging Face, de GitHub van AI en machine learning, besproken. Je kan er onder andere datasets, modellen, spaces en een groeiende community vinden.
-
-Tijdens de sessie werden ook de recentste onderwerpen en trends binnen artificiële intelligentie aangehaald. Denk maar aan LLM's die efficiënter worden zodat ze ook op minder krachtige hardware zoals een smartphone lokaal kunnen draaien. Ook het feit dat LLM's steeds vaker gebruikmaken van voice en image capture kwam aan bod. Daarnaast is beeld en videogeneratie iets dat recent sterk is opgekomen. AI en machine learning zijn natuurlijk niet enkel voor tekst en afbeeldingen, maar worden ondertussen ook volop ingezet binnen de robotica.
-
-Ik heb die avond veel bijgeleerd over Hugging Face en het open source ecosysteem. Ik had voordien wel al vaag van Hugging Face gehoord, dus het was heel fijn om hier dieper op in te gaan. Het was een uiterst interessante Tech&Meet en ik kijk al uit naar de volgende sessies!`
   },
   {
     id: 'dotnet10-demystified',
@@ -108,6 +108,26 @@ Er werd ook dieper ingegaan op de politieke kant van het verhaal. Aangezien Deep
 Dit was mijn tweede Tech&Meet sessie over AI en ook uit deze heb ik veel bruikbare inzichten gehaald. Vooraf wist ik nog niet veel over DeepSeek, maar ik ga er nu zeker eens mee experimenteren!`
   },
   {
+    id: 'spotify-podcast',
+    title: 'Spotify Podcast -  Agile zonder hype: werkt Scrum echt?',
+    date: '25 mei 2026',
+    location: 'Spotify Podcast',
+    slug: 'spotify-podcast-agile-zonder-hype-werkt-scrum-echt',
+    excerpt: 'Een diepgaande discussie over Agile werken en de realiteit van Scrum in de praktijk, met inzichten van Pieter Van Compernolle.',
+    images: ['spotify.png'],
+    link: 'https://open.spotify.com/episode/1gQ9DBDX0JHlGLV8FVtdF9',
+    content: `Voor het vak Professional Networking hebben Jitse Vanhoutte en mezelf een podcast opgenomen waarin we dieper duiken in de wereld van software engineering. We hadden het genoegen om te spreken met Pieter Van Compernolle, al 20+ jaar actief bij Skyline Communications en momenteel Product Owner van het DataMiner-platform.
+
+  Tijdens dit boeiende gesprek ontdekten we hoe Agile werken er op grote schaal écht uitziet. Pieter legde ons uit dat ze bij Skyline niet projectmatig werken, maar focussen op continue productontwikkeling. Hierbij staat 'usage' (hoe intensief een feature gebruikt wordt) centraal als de ultieme graadmeter voor succes. Daarnaast bespraken we het verschil tussen Scrum (ideaal voor nieuwe features) en Kanban (perfect voor continue software-evoluties en flow) , en hoe belangrijk het is om Agile frameworks niet blind volgens het boekje te volgen, maar aan te passen aan wat werkt voor jouw team. 
+
+  Het was een ontzettend leerrijke ervaring die ons een unieke blik achter de schermen gaf van een groot softwarebedrijf. De inzichten over stakeholder management, het omarmen van veranderende klanteneisen en de impact van AI op de snelheid van development nemen we absoluut mee naar onze eigen stages en latere loopbaan! 
+
+  Je kan de podcast via deze link terugvinden: <a href="https://open.spotify.com/episode/1gQ9DBDX0JHlGLV8FVtdF9" target="_blank">Spotify Podcast: Agile zonder hype</a>
+
+  Benieuwd naar andere afleveringen van de Howest IT Student podcast? <a href="https://open.spotify.com/show/7HVRINnrOMwIpJrvJMojTx?si=LoTrqTP_T3-ZdRvYzhgmMg&nd=1&dlsi=1debad4be6d64f8d" target="_blank">Spotify Podcast: Howest IT Student podcast</a>
+  `
+  },
+  {
     id: 'e-portfolio',
     title:'E-portfolio: hoe is het tot stand gekomen?',
     date: '01 juni 2026',
@@ -126,26 +146,5 @@ Om de website toekomstbestendig te maken, heb ik de architectuur zo gestructuree
 
 Dit project was een enorm leerrijke ervaring. Ik heb niet alleen mijn kennis over Angular, PrimeNG en TypeScript flink uitgebreid, maar ik heb ook geleerd hoe je AI-tools efficiënt inzet als programmeerpartner. Deze waardevolle bagage neem ik gegarandeerd mee naar mijn stage en mijn toekomstige werkplek!
 ` 
-  },
-  {
-    id: 'spotify-podcast',
-    title: 'Spotify Podcast -  Agile zonder hype: werkt Scrum echt?',
-    date: '25 mei 2026',
-    location: 'Spotify Podcast',
-    slug: 'spotify-podcast-agile-zonder-hype-werkt-scrum-echt',
-    excerpt: 'Een diepgaande discussie over Agile werken en de realiteit van Scrum in de praktijk, met inzichten van Pieter Van Compernolle.',
-    images: ['spotify.png'],
-    link: 'https://open.spotify.com/episode/1gQ9DBDX0JHlGLV8FVtdF9',
-    content: `Voor het vak Professional Networking hebben Jitse Vanhoutte en mezelf een podcast opgenomen waarin we dieper duiken in de wereld van software engineering. We hadden het genoegen om te spreken met Pieter Van Compernolle, al 20+ jaar actief bij Skyline Communications en momenteel Product Owner van het DataMiner-platform.
-
-Tijdens dit boeiende gesprek ontdekten we hoe Agile werken er op grote schaal écht uitziet. Pieter legde ons uit dat ze bij Skyline niet projectmatig werken, maar focussen op continue productontwikkeling. Hierbij staat 'usage' (hoe intensief een feature gebruikt wordt) centraal als de ultieme graadmeter voor succes. Daarnaast bespraken we het verschil tussen Scrum (ideaal voor nieuwe features) en Kanban (perfect voor continue software-evoluties en flow) , en hoe belangrijk het is om Agile frameworks niet blind volgens het boekje te volgen, maar aan te passen aan wat werkt voor jouw team. 
-
-Het was een ontzettend leerrijke ervaring die ons een unieke blik achter de schermen gaf van een groot softwarebedrijf. De inzichten over stakeholder management, het omarmen van veranderende klanteneisen en de impact van AI op de snelheid van development nemen we absoluut mee naar onze eigen stages en latere loopbaan! 
-
-Je kan de podcast via deze link terugvinden: <a href="https://open.spotify.com/episode/1gQ9DBDX0JHlGLV8FVtdF9" target="_blank">Spotify Podcast: Agile zonder hype</a>
-
-Benieuwd naar andere afleveringen van de Howest IT Student podcast? <a href="https://open.spotify.com/show/7HVRINnrOMwIpJrvJMojTx?si=LoTrqTP_T3-ZdRvYzhgmMg&nd=1&dlsi=1debad4be6d64f8d" target="_blank">Spotify Podcast: Howest IT Student podcast</a>
-`
-
   }
 ];
