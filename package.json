@@ -1,12 +1,12 @@
 {
-  "name": "eportolio-tiebe-tollenaere",
+  "name": "eportfolio-tiebe-tollenaere",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:gh-pages": "ng build --configuration production --base-href=/EPortolio-TiebeTollenaere/",
-    "deploy": "npm run build:gh-pages && npx angular-cli-ghpages --dir=dist/EPortolio-TiebeTollenaere",
+    "build:gh-pages": "ng build --configuration production --base-href=/EPortfolio-TiebeTollenaere/",
+    "deploy": "npm run build:gh-pages && npx angular-cli-ghpages --dir=dist/EPortfolio-TiebeTollenaere",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

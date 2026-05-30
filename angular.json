@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "EPortolio-TiebeTollenaere": {
+    "EPortfolio-TiebeTollenaere": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,6 +20,8 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "outputPath": "dist/EPortfolio-TiebeTollenaere",
+            "baseHref": "/",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -35,6 +37,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/EPortfolio-TiebeTollenaere/",
               "budgets": [
                 {
                   "type": "initial",
@@ -61,10 +64,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "EPortolio-TiebeTollenaere:build:production"
+              "buildTarget": "EPortfolio-TiebeTollenaere:build:production"
             },
             "development": {
-              "buildTarget": "EPortolio-TiebeTollenaere:build:development"
+              "buildTarget": "EPortfolio-TiebeTollenaere:build:development"
             }
           },
           "defaultConfiguration": "development"
